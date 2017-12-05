@@ -1,5 +1,5 @@
 {
-  "name": "lokielse/omnipay-unionpay",
+  "name": "php-cpm/omnipay-unionpay",
   "type": "library",
   "description": "UnionPay gateway for Omnipay payment processing library",
   "keywords": [
@@ -16,12 +16,12 @@
     "无跳转支付",
     "laravel"
   ],
-  "homepage": "https://github.com/lokielse/omnipay-unionpay",
+  "homepage": "https://github.com/php-cpm/omnipay-unionpay",
   "license": "MIT",
   "authors": [
     {
-      "name": "Loki Else",
-      "email": "lokielse@gmail.com"
+      "name": "php-cpm",
+      "email": "zouyi@leying365.com"
     }
   ],
   "autoload": {
@@ -30,9 +30,9 @@
     }
   },
   "require": {
-    "omnipay/common": "~2.0"
+    "omnipay/common": "~2.0|~3.0.x-dev"
   },
   "require-dev": {
-    "omnipay/tests": "~2.0"
+    "omnipay/tests": "~2.0|~3.0.x-dev"
   }
 }
